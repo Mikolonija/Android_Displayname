@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_names">My Aplicasion</string>
+    <string name="button_text">Enter</string>
+    <string name="input_text">Input Your Name </string>
+    <string name="Name">Name</string>
+    <string name="modestas_bieliauskas">Modestas Bieliauskas</string>
+    <string name="your_name_is">Your name is ...</string>
+    <string name="enter">Enter</string>
+    <string name="help_text_optional">Help text (optional)</string>
+    <string name="input_your_name">Input your name</string>
+    <string name="label">Label</string>
+    <string name="my_applications">My applications</string>
+
+</resources>

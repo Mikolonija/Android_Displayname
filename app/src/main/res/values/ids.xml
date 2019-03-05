@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="infoResult" type="id" />
+    <item name="myNameIsLabel" type="id" />
+    <item name="nameBoxLayout" type="id" />
+    <item name="nameField" type="id" />
+    <item name="nameFieldHelpText" type="id" />
+    <item name="nameLabel" type="id" />
+    <item name="app_name" type="id" />
+</resources>

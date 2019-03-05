@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="75dp"
+            android:layout_marginVertical="25dp"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="My applications"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/nameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/app_name"
+                android:layout_marginTop="50dp"
+                android:text="Label" />
+
+            <EditText
+                android:id="@+id/nameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameLabel"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:gravity="center"
+                android:hint="@string/input_your_name"
+                android:textColorHint="@android:color/black"
+                android:textSize="15sp"
+                tools:ignore="UnknownIdInLayout" />
+
+            <TextView
+                android:id="@+id/nameFieldHelpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameField"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="51dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginRight="39dp"
+                android:text="@string/help_text_optional" />
+
+            <Button
+                android:id="@+id/buttonEnterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameFieldHelpText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/enter" />
+
+            <RelativeLayout
+                android:id="@+id/nameBoxLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonEnterName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:background="@color/colorNameBox">
+
+                <TextView
+                    android:id="@+id/myNameIsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="25dp"
+                    android:text="@string/your_name_is"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/displayNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/myNameIsLabel"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:text="@string/Name"
+                    android:textSize="50sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameBoxLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="10dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/modestas_bieliauskas"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
